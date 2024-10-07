@@ -33,7 +33,7 @@ const rodolfo = new Personaje("Rodolfo", "Enano");
 const ricardo = new Personaje("Ricardo", "Elfo")
 const personajes = [rodolfo, ricardo];
 
-console.log(" --- PRUEBA ---");
+console.log(" --- PRUEBA --- ");
 console.table(rodolfo);
 console.table(ricardo);
 
