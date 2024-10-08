@@ -8,7 +8,9 @@ function findPairs(numero1, numero2) {
     if (validarEntradaEnteros(numero1) && validarEntradaEnteros(numero2)) {
         if (Number(numero1) < Number(numero2)) {
             for (let i = Number(numero1) + 1; i < Number(numero2); i++) {
-                rango.push(i);
+                if (i % 2 === 0) {
+                    rango.push(i);
+                }
             }
         } else {
             alert("ERROR - El primer número debe ser menor que el segundo.");
